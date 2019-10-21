@@ -1,0 +1,34 @@
+catkin_ws/build/
+catkin_ws/devel/
+dso/*.pro
+dso/*.pro.user
+dso/*.pro.user*
+dso/build*
+dso/build-*
+dso/*.o
+dso/*.so
+dso/*.a
+dso/*.so.*
+# Compiled Object files
+catkin_ws/src/dso_ros/*.slo
+catkin_ws/src/dso_ros/*.lo
+catkin_ws/src/dso_ros/*.o
+catkin_ws/src/dso_ros/*.obj
+
+# Precompiled Headers
+catkin_ws/src/dso_ros/*.gch
+catkin_ws/src/dso_ros/*.pch
+
+# Compiled Dynamic libraries
+catkin_ws/src/dso_ros/*.so
+catkin_ws/src/dso_ros/*.dylib
+catkin_ws/src/dso_ros/*.dll
+
+# Fortran module files
+catkin_ws/src/dso_ros/*.mod
+catkin_ws/src/dso_ros/*.smod
+
+# Compiled Static libraries
+catkin_ws/src/dso_ros/*.lai
+catkin_ws/src/dso_ros/*.la
+

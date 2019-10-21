@@ -1,0 +1,1692 @@
+loading calibration from /home/odroid/dso_data/camera.txt!
+loading gammaCalib from /home/odroid/dso_data/pcalib.txt!
+loading vignette from /home/odroid/dso_data/vignette.png!
+USING SAMPLE OUTPUT WRAPPER!
+MODE WITH CALIBRATION, but without exposure times!
+Reading Calibration from file /home/odroid/dso_data/camera.txt ... found!
+found PINHOLE camera model, building rectifier.
+Input resolution: 1280 960
+In: 750.246050 749.787064 617.585206 456.726896 0.000000
+Out: 0.400000 0.530000 0.500000 0.500000 0.000000
+Output resolution: 640 480
+
+Rectified Kamera Matrix:
+  256     0 319.5
+    0 254.4 239.5
+    0     0     1
+
+Reading Photometric Calibration from file /home/odroid/dso_data/pcalib.txt
+Reading Vignette Image from /home/odroid/dso_data/vignette.png
+PhotometricUndistorter: Invalid vignette image size! got 1280 x 1024, expected 1280 x 960
+using pyramid levels 0 to 3. coarsest resolution: 80 x 60!
+OUT: Created SampleOutputWrapper
+START PANGOLIN!
+Initialization: keep 13.2% (need 1200, have 9112)!
+INITIALIZE FROM INITIALIZER (1215 pts)!
+SPARSITY:  MinActDist 2.100000 (need 1200 points, have 1215 points)!
+OPTIMIZE 1215 pts, 1215 active res, 0 lin res!
+Initial Error       	A(582095.177734)=(AV inf). Num: A(0) + M(0); ab 0.000000 0.000000!
+STEPS: A 10.4; B 111.2; R 400.7; T 1531.1. 	REJECT 0 (L -1.00, dir nan, ss 1.0): 	A(7710352.163813)=(AV 272.283). Num: A(13) + M(0); ab -0.087876 9.434078!
+STEPS: A 35.6; B 540.0; R 61.7; T 317.9. 	ACCEPT 1 (L -1.60, dir -0.04, ss 1.0): 	A(6692780.171059)=(AV 41.111). Num: A(495) + M(0); ab -0.390098 55.256695!
+STEPS: A 15.9; B 217.9; R 92.5; T 77.0. 	ACCEPT 2 (L -2.20, dir 0.87, ss 1.0): 	A(6208116.746933)=(AV 36.421). Num: A(585) + M(0); ab -0.524682 73.745667!
+STEPS: A 19.2; B 224.0; R 135.1; T 115.9. 	ACCEPT 3 (L -2.81, dir 0.99, ss 1.0): 	A(6013100.503319)=(AV 34.651). Num: A(626) + M(0); ab -0.688002 92.756317!
+STEPS: A 17.4; B 195.1; R 51.9; T 43.7. 	ACCEPT 4 (L -3.41, dir 0.95, ss 1.0): 	A(5985328.514847)=(AV 33.243). Num: A(677) + M(0); ab -0.835948 109.313820!
+STEPS: A 16.8; B 166.2; R 63.1; T 54.9. 	ACCEPT 5 (L -4.01, dir 0.99, ss 1.0): 	A(5629830.285904)=(AV 31.220). Num: A(722) + M(0); ab -0.978144 123.413055!
+STEPS: A 14.6; B 102.9; R 49.4; T 44.3. 	ACCEPT 6 (L -4.61, dir 0.98, ss 1.0): 	A(5215172.997635)=(AV 29.904). Num: A(729) + M(0); ab -1.102308 132.142715!
+STEPS: A 13.3; B 71.3; R 38.3; T 33.4. 	ACCEPT 7 (L -5.21, dir 0.99, ss 1.0): 	A(4996550.716938)=(AV 29.052). Num: A(740) + M(0); ab -1.214791 138.191818!
+STEPS: A 12.0; B 56.0; R 53.3; T 48.3. 	ACCEPT 8 (L -5.82, dir 0.97, ss 1.0): 	A(4764685.116222)=(AV 28.332). Num: A(742) + M(0); ab -1.316879 142.944702!
+STEPS: A 10.6; B 47.8; R 38.7; T 34.1. 	ACCEPT 9 (L -6.42, dir 0.99, ss 1.0): 	A(4535847.092592)=(AV 27.440). Num: A(753) + M(0); ab -1.406793 147.004257!
+STEPS: A 10.2; B 42.7; R 39.4; T 35.4. 	ACCEPT 10 (L -7.02, dir 1.00, ss 1.0): 	A(4443457.680664)=(AV 27.232). Num: A(749) + M(0); ab -1.493742 150.624390!
+STEPS: A 9.4; B 28.7; R 15.1; T 13.9. 	ACCEPT 11 (L -7.62, dir 0.96, ss 1.0): 	A(4197313.664276)=(AV 26.449). Num: A(750) + M(0); ab -1.573614 153.056351!
+STEPS: A 9.0; B 15.0; R 11.4; T 8.6. 	ACCEPT 12 (L -8.22, dir 0.99, ss 1.0): 	A(4067135.355659)=(AV 26.088). Num: A(747) + M(0); ab -1.650145 154.333282!
+STEPS: A 7.8; B 6.7; R 10.2; T 8.8. 	ACCEPT 13 (L -8.83, dir 0.99, ss 1.0): 	A(3979745.717720)=(AV 25.789). Num: A(748) + M(0); ab -1.715982 154.898438!
+STEPS: A 7.7; B 9.9; R 4.4; T 3.3. 	ACCEPT 14 (L -9.43, dir 0.99, ss 1.0): 	A(3893253.335915)=(AV 25.507). Num: A(748) + M(0); ab -1.781394 155.735809!
+I THINK INITIALIZATINO FAILED! Resetting.
+OUT: Predicted depth for KF 1 (id 15, time 0.000000, internal frame-ID 15). CameraToWorld:
+  0.834568   0.273551    0.47819   -0.96503
+ -0.269039    0.95984 -0.0795382  -0.250208
+ -0.480743 -0.0622715   0.874647  -0.333052
+OUT: Example Idepth at pixel (92,71): 0.169873.
+OUT: Example Idepth at pixel (94,71): 0.169873.
+OUT: Example Idepth at pixel (121,71): 0.193714.
+OUT: Example Idepth at pixel (123,71): 0.193714.
+OUT: Example Idepth at pixel (93,72): 0.169873.
+OUT: got graph with 4 edges
+OUT: Example Edge 0 -> 0 has 0 active and 0 marg residuals
+OUT: Example Edge 0 -> 1 has 738 active and 0 marg residuals
+OUT: Example Edge 1 -> 0 has 0 active and 0 marg residuals
+OUT: Example Edge 1 -> 1 has 0 active and 0 marg residuals
+HERE :) OUT: KF 0 (non-final) (id 0, tme 0.000000): 738 active, 0 marginalized, 0 immature points. CameraToWorld:
+   0.999044 -0.00325218   0.0435857 -0.00310984
+ 0.00271785     0.99992   0.0123129 -0.00251275
+ -0.0436223  -0.0121827    0.998974   0.0141993
+OUT: Example Point x=132.0, y=84.0, idepth=0.534782, idepth std.dev. 0.000052, 1 inlier-residuals
+OUT: Example Point x=361.0, y=473.0, idepth=0.950956, idepth std.dev. 0.001644, 1 inlier-residuals
+OUT: Example Point x=172.0, y=84.0, idepth=0.476515, idepth std.dev. 0.000251, 1 inlier-residuals
+OUT: Example Point x=210.0, y=84.0, idepth=0.341008, idepth std.dev. 0.000064, 1 inlier-residuals
+OUT: Example Point x=376.0, y=472.0, idepth=0.893079, idepth std.dev. 0.001631, 1 inlier-residuals
+Length of pointHessiansMarginalized : %d 0
+HERE :) OUT: KF 1 (non-final) (id 15, tme 0.000000): 0 active, 0 marginalized, 1002 immature points. CameraToWorld:
+  0.834568   0.273551    0.47819   -0.96503
+ -0.269039    0.95984 -0.0795382  -0.250208
+ -0.480743 -0.0622715   0.874647  -0.333052
+Length of pointHessiansMarginalized : %d 0
+LOG 15: 25.523 fine. Res: 748 A, 0 L, 0 M; (0 / 0) forceDrop. a=-1.781394, b=155.735808. Window 15 (2)
+Coarse Tracker tracked ab = -1.799872 153.393781 (exp 1.000000). Res 13.239533!
+OUT: Current Frame 16 (time 0.000000, internal ID 16). CameraToWorld:
+  0.835064    0.27274   0.477787  -0.962756
+ -0.267533   0.960178 -0.0805217  -0.244982
+ -0.480722 -0.0605828   0.874778  -0.333193
+SPARSITY:  MinActDist 0.800000 (need 1200 points, have 738 points)!
+OPTIMIZE 973 pts, 1714 active res, 0 lin res!
+Initial Error       	A(1615661.403347)=(AV 16.432). Num: A(748) + M(0); ab -1.799872 153.393784!
+STEPS: A 50.2; B 29.2; R 662.1; T 4104.0. 	REJECT 0 (L -1.00, dir nan, ss 1.0): 	A(4677962.006175)=(AV 24.073). Num: A(1009) + M(0); ab -2.172198 156.312759!
+STEPS: A 21.9; B 25.3; R 26.4; T 801.6. 	ACCEPT 1 (L -1.60, dir 0.65, ss 1.0): 	A(4462858.162404)=(AV 21.000). Num: A(1265) + M(0); ab -2.341907 153.683853!
+STEPS: A 17.3; B 21.6; R 19.1; T 72.6. 	ACCEPT 2 (L -2.20, dir 0.77, ss 1.0): 	A(4244343.899233)=(AV 20.155). Num: A(1306) + M(0); ab -2.477182 151.440567!
+STEPS: A 12.6; B 11.4; R 11.4; T 54.3. 	ACCEPT 3 (L -2.81, dir 1.00, ss 1.0): 	A(4128343.637635)=(AV 19.795). Num: A(1317) + M(0); ab -2.573181 150.262802!
+STEPS: A 9.5; B 6.9; R 7.4; T 50.0. 	REJECT 4 (L -3.41, dir 1.00, ss 1.0): 	A(4137900.390757)=(AV 19.833). Num: A(1315) + M(0); ab -2.648292 149.554871!
+STEPS: A 7.4; B 11.1; R 5.8; T 64.2. 	REJECT 5 (L -4.01, dir 0.99, ss 1.0): 	A(4165844.282219)=(AV 19.938). Num: A(1310) + M(0); ab -2.707190 148.435791!
+STEPS: A 6.4; B 8.6; R 5.2; T 66.0. 	REJECT 6 (L -4.61, dir 1.00, ss 1.0): 	A(4241355.765911)=(AV 20.087). Num: A(1314) + M(0); ab -2.758765 147.572037!
+STEPS: A 4.0; B 7.2; R 2.8; T 44.0. 	REJECT 7 (L -5.21, dir 0.98, ss 1.0): 	A(4350063.499098)=(AV 20.397). Num: A(1307) + M(0); ab -2.786141 146.834961!
+STEPS: A 4.8; B 5.1; R 4.7; T 57.8. 	REJECT 8 (L -5.82, dir 0.98, ss 1.0): 	A(4454421.114799)=(AV 20.889). Num: A(1276) + M(0); ab -2.822657 146.323273!
+STEPS: A 6.0; B 7.0; R 6.7; T 95.2. 	REJECT 9 (L -6.42, dir 0.91, ss 1.0): 	A(4496225.250549)=(AV 21.128). Num: A(1259) + M(0); ab -2.882749 145.634720!
+STEPS: A 11.5; B 10.2; R 10.5; T 139.3. 	REJECT 10 (L -7.02, dir 0.90, ss 1.0): 	A(4557751.959592)=(AV 21.435). Num: A(1240) + M(0); ab -3.001076 146.358978!
+STEPS: A 9.1; B 2.0; R 4.7; T 102.1. 	REJECT 11 (L -7.62, dir 0.98, ss 1.0): 	A(4632987.485985)=(AV 21.725). Num: A(1227) + M(0); ab -3.095660 146.361176!
+STEPS: A 10.3; B 2.5; R 7.7; T 138.8. 	REJECT 12 (L -8.22, dir 1.00, ss 1.0): 	A(4639483.084517)=(AV 21.714). Num: A(1230) + M(0); ab -3.202525 146.192703!
+STEPS: A 11.1; B 4.1; R 7.2; T 175.7. 	ACCEPT 13 (L -8.83, dir 0.99, ss 1.0): 	A(4575613.927308)=(AV 21.408). Num: A(1248) + M(0); ab -3.317935 145.993423!
+STEPS: A 8.0; B 8.1; R 3.4; T 128.1. 	ACCEPT 14 (L -9.43, dir 0.93, ss 1.0): 	A(4545442.661927)=(AV 21.432). Num: A(1237) + M(0); ab -3.394963 145.235733!
+I THINK INITIALIZATINO FAILED! Resetting.
+INCREASING cutoff to 40.000000 (ratio is 0.517451)!
+REPEAT LEVEL!
+Coarse Tracker tracked ab = -1.816756 150.606010 (exp 1.000000). Res 12.833243!
+OUT: Current Frame 17 (time 0.000000, internal ID 17). CameraToWorld:
+   0.85076   0.278031   0.445989  -0.954789
+ -0.265558   0.959722 -0.0917211  -0.225601
+ -0.453527 -0.0404034   0.890326  -0.372458
+OUT: Predicted depth for KF 2 (id 16, time 0.000000, internal frame-ID 16). CameraToWorld:
+  0.849459   0.276205   0.449589   -0.96199
+  -0.26599   0.960022 -0.0872236  -0.247695
+ -0.455707 -0.0454932   0.888967  -0.387879
+OUT: Example Idepth at pixel (108,84): 0.167645.
+OUT: Example Idepth at pixel (110,84): 0.167645.
+OUT: Example Idepth at pixel (109,85): 0.167645.
+OUT: Example Idepth at pixel (108,86): 0.167645.
+OUT: Example Idepth at pixel (110,86): 0.167645.
+INCREASING cutoff to 40.000000 (ratio is 0.829876)!
+INCREASING cutoff to 80.000000 (ratio is 0.692946)!
+INCREASING cutoff to 160.000000 (ratio is 0.462656)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 0.340659)!
+INCREASING cutoff to 40.000000 (ratio is 0.368308)!
+INCREASING cutoff to 40.000000 (ratio is 0.374826)!
+Coarse Tracker tracked ab = -3.711674 140.241166 (exp 1.000000). Res 13.860922!
+OUT: Current Frame 18 (time 0.000000, internal ID 18). CameraToWorld:
+  0.839989   0.280408   0.464532  -0.958536
+ -0.259332   0.959476  -0.110237  -0.196999
+ -0.476619 -0.0278707   0.878668  -0.406053
+OUT: got graph with 9 edges
+OUT: Example Edge 0 -> 0 has 0 active and 0 marg residuals
+OUT: Example Edge 0 -> 1 has 731 active and 0 marg residuals
+OUT: Example Edge 0 -> 2 has 460 active and 0 marg residuals
+OUT: Example Edge 1 -> 0 has 0 active and 0 marg residuals
+OUT: Example Edge 1 -> 1 has 0 active and 0 marg residuals
+HERE :) OUT: KF 0 (non-final) (id 0, tme 0.000000): 736 active, 0 marginalized, 0 immature points. CameraToWorld:
+    0.999991 -9.44536e-05   0.00429983  -0.00072835
+ 8.56975e-05     0.999998   0.00203653 -0.000606708
+ -0.00430001  -0.00203614     0.999989   0.00267705
+OUT: Example Point x=132.0, y=84.0, idepth=0.532982, idepth std.dev. 0.000053, 2 inlier-residuals
+OUT: Example Point x=361.0, y=473.0, idepth=1.004739, idepth std.dev. 0.000841, 3 inlier-residuals
+OUT: Example Point x=172.0, y=84.0, idepth=0.483747, idepth std.dev. 0.000253, 3 inlier-residuals
+OUT: Example Point x=210.0, y=84.0, idepth=0.344702, idepth std.dev. 0.000052, 3 inlier-residuals
+OUT: Example Point x=376.0, y=472.0, idepth=0.942162, idepth std.dev. 0.000842, 3 inlier-residuals
+Length of pointHessiansMarginalized : %d 0
+HERE :) OUT: KF 1 (non-final) (id 15, tme 0.000000): 33 active, 0 marginalized, 290 immature points. CameraToWorld:
+  0.849984   0.278468   0.447194  -0.958008
+ -0.265911   0.959586 -0.0921174  -0.239276
+ -0.454773 -0.0406154   0.889681  -0.387923
+OUT: Example Point x=184.0, y=133.0, idepth=37.775188, idepth std.dev. inf, 1 inlier-residuals
+OUT: Example Point x=209.0, y=132.0, idepth=40.304310, idepth std.dev. inf, 1 inlier-residuals
+OUT: Example Point x=354.0, y=387.0, idepth=30.038782, idepth std.dev. inf, 1 inlier-residuals
+OUT: Example Point x=251.0, y=263.0, idepth=50.795177, idepth std.dev. 0.178806, 1 inlier-residuals
+OUT: Example Point x=196.0, y=257.0, idepth=63.892235, idepth std.dev. inf, 1 inlier-residuals
+Length of pointHessiansMarginalized : %d 0
+HERE :) OUT: KF 2 (non-final) (id 16, tme 0.000000): 0 active, 0 marginalized, 999 immature points. CameraToWorld:
+  0.849459   0.276205   0.449589   -0.96199
+  -0.26599   0.960022 -0.0872236  -0.247695
+ -0.455707 -0.0454932   0.888967  -0.387879
+Length of pointHessiansMarginalized : %d 0
+LOG 16: 21.413 fine. Res: 1237 A, 0 L, 0 M; (0 / 0) forceDrop. a=-3.394963, b=145.235735. Window 16 (3)
+INCREASING cutoff to 40.000000 (ratio is 0.437722)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 0.416517)!
+INCREASING cutoff to 40.000000 (ratio is 0.481799)!
+INCREASING cutoff to 40.000000 (ratio is 0.442281)!
+INCREASING cutoff to 40.000000 (ratio is 0.455215)!
+Coarse Tracker tracked ab = -3.583070 140.821813 (exp 1.000000). Res 20.360739!
+OUT: Current Frame 19 (time 0.000000, internal ID 19). CameraToWorld:
+  0.821495   0.298999   0.485537  -0.982455
+ -0.264849   0.954151  -0.139469  -0.163888
+ -0.504976 -0.0140214   0.863019  -0.444007
+SPARSITY:  MinActDist 0.000000 (need 1200 points, have 769 points)!
+OPTIMIZE 897 pts, 2121 active res, 0 lin res!
+Initial Error       	A(2343157.048679)=(AV 15.388). Num: A(1237) + M(0); ab -3.583071 140.821808!
+STEPS: A 54.4; B 19.4; R 86.7; T 799.8. 	REJECT 0 (L -1.00, dir nan, ss 1.0): 	A(4855112.236040)=(AV 20.918). Num: A(1387) + M(0); ab -4.009695 143.054550!
+STEPS: A 9.8; B 47.3; R 12.9; T 101.7. 	ACCEPT 1 (L -1.60, dir -0.69, ss 1.0): 	A(4645632.958843)=(AV 18.608). Num: A(1677) + M(0); ab -3.917178 137.899643!
+STEPS: A 15.0; B 50.7; R 9.8; T 66.2. 	ACCEPT 2 (L -2.20, dir 0.94, ss 1.0): 	A(4455393.594702)=(AV 18.010). Num: A(1717) + M(0); ab -3.792827 132.351028!
+STEPS: A 7.8; B 38.4; R 8.4; T 58.0. 	ACCEPT 3 (L -2.81, dir -0.57, ss 1.0): 	A(4279858.297257)=(AV 17.545). Num: A(1738) + M(0); ab -3.863173 127.862991!
+I THINK INITIALIZATINO FAILED! Resetting.
+INCREASING cutoff to 40.000000 (ratio is 0.489130)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 0.376600)!
+INCREASING cutoff to 40.000000 (ratio is 0.497859)!
+INCREASING cutoff to 40.000000 (ratio is 0.489569)!
+INCREASING cutoff to 40.000000 (ratio is 0.512472)!
+INCREASING cutoff to 40.000000 (ratio is 0.585455)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 0.429616)!
+INCREASING cutoff to 40.000000 (ratio is 0.511803)!
+INCREASING cutoff to 40.000000 (ratio is 0.527855)!
+OUT: Predicted depth for KF 3 (id 19, time 0.000000, internal frame-ID 19). CameraToWorld:
+  0.824789   0.297551   0.480819  -0.982795
+ -0.263005   0.954639  -0.139615  -0.165732
+ -0.500551 -0.0113046   0.865633  -0.452057
+INCREASING cutoff to 40.000000 (ratio is 0.474730)!
+OUT: Example Idepth at pixel (133,85): 0.731568.
+OUT: Example Idepth at pixel (135,85): 0.731568.
+OUT: Example Idepth at pixel (340,85): 1.633059.
+OUT: Example Idepth at pixel (342,85): 1.633059.
+OUT: Example Idepth at pixel (134,86): 0.731568.
+RE-TRACK ATTEMPT 1 with initOption 1 and start-lvl 3 (ab -4.084590 132.106292): nan nan nan nan nan -> 20.632711 20.726074 20.430542 19.724854 nan 
+Coarse Tracker tracked ab = -4.084590 132.106292 (exp 1.000000). Res 20.632711!
+OUT: Current Frame 20 (time 0.000000, internal ID 20). CameraToWorld:
+ 0.817617  0.314198  0.482475  -1.02683
+-0.251649   0.94871  -0.19137 -0.103138
+-0.517857 0.0350528  0.854749 -0.534639
+OUT: got graph with 16 edges
+OUT: Example Edge 0 -> 0 has 0 active and 0 marg residuals
+OUT: Example Edge 0 -> 1 has 731 active and 0 marg residuals
+OUT: Example Edge 0 -> 2 has 445 active and 0 marg residuals
+OUT: Example Edge 0 -> 3 has 439 active and 0 marg residuals
+OUT: Example Edge 1 -> 0 has 0 active and 0 marg residuals
+HERE :) OUT: KF 0 (non-final) (id 0, tme 0.000000): 736 active, 0 marginalized, 0 immature points. CameraToWorld:
+    0.999999 -0.000445686  -0.00136649  0.000405252
+ 0.000445195            1 -0.000359564  -0.00018521
+  0.00136665  0.000358955     0.999999 -0.000451083
+OUT: Example Point x=132.0, y=84.0, idepth=0.531448, idepth std.dev. 0.000056, 4 inlier-residuals
+OUT: Example Point x=361.0, y=473.0, idepth=1.015014, idepth std.dev. 0.000821, 5 inlier-residuals
+OUT: Example Point x=172.0, y=84.0, idepth=0.475162, idepth std.dev. 0.000166, 6 inlier-residuals
+OUT: Example Point x=210.0, y=84.0, idepth=0.342751, idepth std.dev. 0.000051, 6 inlier-residuals
+OUT: Example Point x=376.0, y=472.0, idepth=0.924600, idepth std.dev. 0.000557, 6 inlier-residuals
+Length of pointHessiansMarginalized : %d 0
+HERE :) OUT: KF 1 (non-final) (id 15, tme 0.000000): 20 active, 0 marginalized, 15 immature points. CameraToWorld:
+  0.852561   0.278494   0.442246  -0.958053
+ -0.264158   0.959774 -0.0951528  -0.236575
+ -0.450955 -0.0356993   0.891832  -0.398369
+OUT: Example Point x=184.0, y=133.0, idepth=59.422974, idepth std.dev. 0.391856, 2 inlier-residuals
+OUT: Example Point x=209.0, y=132.0, idepth=43.219028, idepth std.dev. 0.128810, 2 inlier-residuals
+OUT: Example Point x=354.0, y=387.0, idepth=24.842379, idepth std.dev. 0.032189, 2 inlier-residuals
+OUT: Example Point x=409.0, y=297.0, idepth=18.568716, idepth std.dev. 0.008589, 1 inlier-residuals
+OUT: Example Point x=205.0, y=342.0, idepth=0.702829, idepth std.dev. 0.001472, 1 inlier-residuals
+Length of pointHessiansMarginalized : %d 0
+HERE :) OUT: KF 2 (non-final) (id 16, tme 0.000000): 121 active, 0 marginalized, 165 immature points. CameraToWorld:
+  0.851775   0.277357   0.444468   -0.96164
+  -0.26559   0.959875 -0.0900077  -0.245172
+ -0.451598 -0.0413797   0.891262  -0.396885
+OUT: Example Point x=137.0, y=84.0, idepth=0.764589, idepth std.dev. 0.001444, 1 inlier-residuals
+OUT: Example Point x=355.0, y=84.0, idepth=1.923569, idepth std.dev. 0.001445, 1 inlier-residuals
+OUT: Example Point x=205.0, y=85.0, idepth=1.141287, idepth std.dev. 0.001511, 1 inlier-residuals
+OUT: Example Point x=349.0, y=85.0, idepth=1.895849, idepth std.dev. 0.001204, 1 inlier-residuals
+OUT: Example Point x=175.0, y=89.0, idepth=0.502180, idepth std.dev. 0.006995, 1 inlier-residuals
+Length of pointHessiansMarginalized : %d 0
+HERE :) OUT: KF 3 (non-final) (id 19, tme 0.000000): 0 active, 0 marginalized, 1003 immature points. CameraToWorld:
+  0.824789   0.297551   0.480819  -0.982795
+ -0.263005   0.954639  -0.139615  -0.165732
+ -0.500551 -0.0113046   0.865633  -0.452057
+Length of pointHessiansMarginalized : %d 0
+LOG 19: 17.674 fine. Res: 1738 A, 0 L, 0 M; (0 / 0) forceDrop. a=-3.863173, b=127.862990. Window 19 (4)
+Coarse Tracker tracked ab = -3.850632 130.525138 (exp 1.000000). Res 10.807988!
+OUT: Current Frame 21 (time 0.000000, internal ID 21). CameraToWorld:
+ 0.806521  0.322294  0.495631  -1.02054
+-0.250346  0.945648  -0.20755 -0.169762
+-0.535585 0.0433141   0.84337  -0.47773
+SPARSITY:  MinActDist 0.000000 (need 1200 points, have 877 points)!
+OPTIMIZE 1061 pts, 2827 active res, 0 lin res!
+Initial Error       	A(3436938.568681)=(AV 15.722). Num: A(1738) + M(0); ab -3.850632 130.525131!
+STEPS: A 15.8; B 23.6; R 32.6; T 205.4. 	REJECT 0 (L -1.00, dir nan, ss 1.0): 	A(5248853.935502)=(AV 17.956). Num: A(2035) + M(0); ab -3.996939 129.331039!
+INCREASING cutoff to 40.000000 (ratio is 0.503436)!
+REPEAT LEVEL!
+Coarse Tracker tracked ab = -3.867197 130.993532 (exp 1.000000). Res 10.702827!
+OUT: Current Frame 22 (time 0.000000, internal ID 22). CameraToWorld:
+ 0.821992  0.326575  0.466559 -0.994881
+-0.256365  0.943734 -0.208911 -0.175749
+-0.508532 0.0521135  0.859464 -0.464328
+STEPS: A 21.4; B 44.9; R 9.3; T 190.8. 	ACCEPT 1 (L -1.60, dir 0.90, ss 1.0): 	A(5046307.960057)=(AV 16.349). Num: A(2360) + M(0); ab -4.164162 124.250702!
+STEPS: A 22.6; B 35.0; R 7.2; T 30.4. 	ACCEPT 2 (L -2.20, dir 0.91, ss 1.0): 	A(4949222.054261)=(AV 16.126). Num: A(2379) + M(0); ab -4.340268 120.278763!
+STEPS: A 28.6; B 27.7; R 8.0; T 19.2. 	ACCEPT 3 (L -2.81, dir 0.99, ss 1.0): 	A(4867714.902078)=(AV 15.969). Num: A(2386) + M(0); ab -4.561716 117.127411!
+OUT: Predicted depth for KF 4 (id 21, time 0.000000, internal frame-ID 21). CameraToWorld:
+ 0.805362  0.322231  0.497552  -1.01696
+-0.250651  0.945737 -0.206775 -0.169735
+-0.537183 0.0418163  0.842429   -0.4706
+OUT: Example Idepth at pixel (160,114): 0.464077.
+OUT: Example Idepth at pixel (162,114): 0.464077.
+OUT: Example Idepth at pixel (161,115): 0.464077.
+OUT: Example Idepth at pixel (160,116): 0.464077.
+OUT: Example Idepth at pixel (162,116): 0.464077.
+INCREASING cutoff to 40.000000 (ratio is 0.668639)!
+INCREASING cutoff to 80.000000 (ratio is 0.429586)!
+REPEAT LEVEL!
+Coarse Tracker tracked ab = -4.555943 117.050527 (exp 1.000000). Res 12.359336!
+OUT: Current Frame 23 (time 0.000000, internal ID 23). CameraToWorld:
+ 0.837138  0.330015  0.436223 -0.983986
+-0.263251  0.942135 -0.207558 -0.174948
+-0.479478 0.0589181  0.875574 -0.460535
+OUT: got graph with 25 edges
+OUT: Example Edge 0 -> 0 has 0 active and 0 marg residuals
+OUT: Example Edge 0 -> 1 has 550 active and 20 marg residuals
+OUT: Example Edge 0 -> 2 has 261 active and 20 marg residuals
+OUT: Example Edge 0 -> 3 has 398 active and 20 marg residuals
+OUT: Example Edge 0 -> 4 has 410 active and 0 marg residuals
+HERE :) OUT: KF 0 (non-final) (id 0, tme 0.000000): 555 active, 20 marginalized, 0 immature points. CameraToWorld:
+    0.999998 -0.000397543  -0.00172191  0.000362834
+ 0.000397323            1 -0.000128385 -2.54155e-05
+  0.00172196  0.000127701     0.999999 -0.000640681
+OUT: Example Point x=132.0, y=84.0, idepth=0.535417, idepth std.dev. 0.000051, 7 inlier-residuals
+OUT: Example Point x=545.0, y=276.0, idepth=0.829161, idepth std.dev. 0.000635, 10 inlier-residuals
+OUT: Example Point x=172.0, y=84.0, idepth=0.478065, idepth std.dev. 0.000136, 10 inlier-residuals
+OUT: Example Point x=210.0, y=84.0, idepth=0.345597, idepth std.dev. 0.000054, 10 inlier-residuals
+OUT: Example Point x=376.0, y=472.0, idepth=0.950518, idepth std.dev. 0.000549, 9 inlier-residuals
+Length of pointHessiansMarginalized : %d 20
+HERE :) OUT: KF 1 (non-final) (id 15, tme 0.000000): 15 active, 0 marginalized, 12 immature points. CameraToWorld:
+   0.85144   0.278987    0.44409   -0.95674
+ -0.264517   0.959621 -0.0957045  -0.233501
+ -0.452858 -0.0359825   0.890856  -0.393274
+OUT: Example Point x=184.0, y=133.0, idepth=12.490211, idepth std.dev. 0.026727, 4 inlier-residuals
+OUT: Example Point x=209.0, y=132.0, idepth=38.163242, idepth std.dev. 0.082498, 3 inlier-residuals
+OUT: Example Point x=354.0, y=387.0, idepth=26.642565, idepth std.dev. 0.016899, 4 inlier-residuals
+OUT: Example Point x=409.0, y=297.0, idepth=18.588705, idepth std.dev. 0.041611, 2 inlier-residuals
+OUT: Example Point x=205.0, y=342.0, idepth=0.745590, idepth std.dev. 0.000919, 3 inlier-residuals
+Length of pointHessiansMarginalized : %d 0
+HERE :) OUT: KF 2 (non-final) (id 16, tme 0.000000): 105 active, 0 marginalized, 152 immature points. CameraToWorld:
+    0.8506   0.278473   0.446019  -0.959819
+ -0.266925   0.959504 -0.0900183  -0.243128
+ -0.453025 -0.0424841   0.890485  -0.392521
+OUT: Example Point x=137.0, y=84.0, idepth=0.739728, idepth std.dev. 0.001750, 2 inlier-residuals
+OUT: Example Point x=355.0, y=84.0, idepth=1.882063, idepth std.dev. 0.001714, 2 inlier-residuals
+OUT: Example Point x=205.0, y=85.0, idepth=1.108993, idepth std.dev. 0.001859, 2 inlier-residuals
+OUT: Example Point x=349.0, y=85.0, idepth=1.859888, idepth std.dev. 0.001388, 2 inlier-residuals
+OUT: Example Point x=175.0, y=89.0, idepth=0.488090, idepth std.dev. 0.005808, 3 inlier-residuals
+Length of pointHessiansMarginalized : %d 0
+HERE :) OUT: KF 3 (non-final) (id 19, tme 0.000000): 161 active, 0 marginalized, 322 immature points. CameraToWorld:
+  0.823561   0.298194   0.482523    -0.9803
+ -0.264187   0.954416  -0.138909  -0.165277
+ -0.501949 -0.0130767   0.864798  -0.445515
+OUT: Example Point x=538.0, y=101.0, idepth=3.545094, idepth std.dev. 0.002283, 1 inlier-residuals
+OUT: Example Point x=533.0, y=444.0, idepth=4.839112, idepth std.dev. 0.007169, 1 inlier-residuals
+OUT: Example Point x=223.0, y=106.0, idepth=0.045390, idepth std.dev. 0.001555, 1 inlier-residuals
+OUT: Example Point x=418.0, y=410.0, idepth=8.589384, idepth std.dev. 0.006193, 1 inlier-residuals
+OUT: Example Point x=264.0, y=114.0, idepth=0.024138, idepth std.dev. 0.001567, 1 inlier-residuals
+Length of pointHessiansMarginalized : %d 0
+HERE :) OUT: KF 4 (non-final) (id 21, tme 0.000000): 0 active, 0 marginalized, 998 immature points. CameraToWorld:
+ 0.805362  0.322231  0.497552  -1.01696
+-0.250651  0.945737 -0.206775 -0.169735
+-0.537183 0.0418163  0.842429   -0.4706
+Length of pointHessiansMarginalized : %d 0
+LOG 21: 16.060 fine. Res: 2386 A, 0 L, 60 M; (0 / 0) forceDrop. a=-4.561716, b=117.127410. Window 21 (5)
+SPARSITY:  MinActDist 0.000000 (need 1200 points, have 836 points)!
+OPTIMIZE 1102 pts, 3140 active res, 0 lin res!
+Initial Error       	A(3718605.950359)=(AV 13.958). Num: A(2386) + M(60); ab -4.555943 117.050529!
+INCREASING cutoff to 40.000000 (ratio is 0.475352)!
+REPEAT LEVEL!
+Coarse Tracker tracked ab = -4.562752 118.332927 (exp 1.000000). Res 12.230246!
+OUT: Current Frame 24 (time 0.000000, internal ID 24). CameraToWorld:
+  0.82043   0.36232  0.442288 -0.987439
+-0.296507  0.931045 -0.212697 -0.167848
+-0.488854 0.0433616  0.871287 -0.452789
+STEPS: A 69.2; B 20.1; R 43.7; T 232.6. 	REJECT 0 (L -1.00, dir nan, ss 1.0): 	A(4408031.687203)=(AV 14.790). Num: A(2519) + M(60); ab -5.083316 118.907051!
+STEPS: A 63.2; B 24.7; R 22.3; T 349.3. 	ACCEPT 1 (L -1.60, dir 0.97, ss 1.0): 	A(4251196.472423)=(AV 13.740). Num: A(2815) + M(60); ab -5.545010 116.291252!
+STEPS: A 53.0; B 19.4; R 10.3; T 26.2. 	INCREASING cutoff to 40.000000 (ratio is 0.382181)!
+REPEAT LEVEL!
+ACCEPT 2 (L -2.20, dir 0.94, ss 1.0): 	A(4149053.345379)=(AV 13.583). Num: A(2811) + M(60); ab -5.936319 114.270180!
+Coarse Tracker tracked ab = -4.564556 117.553703 (exp 1.000000). Res 12.197484!
+OUT: Current Frame 25 (time 0.000000, internal ID 25). CameraToWorld:
+ 0.832051  0.332346  0.444114 -0.983798
+-0.255579  0.940285 -0.224818 -0.164093
+-0.492311 0.0735543  0.867306   -0.4522
+STEPS: A 58.3; B 12.7; R 6.9; T 22.2. 	ACCEPT 3 (L -2.81, dir 1.00, ss 1.0): 	A(4099309.386469)=(AV 13.506). Num: A(2809) + M(60); ab -6.364374 112.850311!
+OUT: Predicted depth for KF 5 (id 23, time 0.000000, internal frame-ID 23). CameraToWorld:
+ 0.835105  0.331977  0.438623 -0.996075
+ -0.26444  0.941464 -0.209085 -0.174265
+ -0.48236 0.0586186   0.87401 -0.459105
+OUT: Example Idepth at pixel (411,84): 0.601560.
+OUT: Example Idepth at pixel (413,84): 0.601560.
+OUT: Example Idepth at pixel (440,84): 0.391190.
+OUT: Example Idepth at pixel (442,84): 0.391190.
+OUT: Example Idepth at pixel (482,84): 0.076148.
+INCREASING cutoff to 40.000000 (ratio is 0.919689)!
+INCREASING cutoff to 80.000000 (ratio is 0.839378)!
+INCREASING cutoff to 160.000000 (ratio is 0.660622)!
+INCREASING cutoff to 320.000000 (ratio is 0.443005)!
+REPEAT LEVEL!
+Coarse Tracker tracked ab = -6.381568 114.451763 (exp 1.000000). Res 9.198486!
+OUT: Current Frame 26 (time 0.000000, internal ID 26). CameraToWorld:
+ 0.835085  0.319243  0.448015  -1.00092
+-0.238282  0.943939 -0.228476 -0.166372
+-0.495838 0.0840425  0.864339 -0.458312
+OUT: got graph with 36 edges
+OUT: Example Edge 0 -> 0 has 0 active and 0 marg residuals
+OUT: Example Edge 0 -> 1 has 513 active and 41 marg residuals
+OUT: Example Edge 0 -> 2 has 224 active and 41 marg residuals
+OUT: Example Edge 0 -> 3 has 358 active and 41 marg residuals
+OUT: Example Edge 0 -> 4 has 388 active and 0 marg residuals
+HERE :) OUT: KF 0 (non-final) (id 0, tme 0.000000): 517 active, 41 marginalized, 0 immature points. CameraToWorld:
+    0.999998 -0.000354585  -0.00202551  0.000261008
+ 0.000353889            1 -0.000343989  0.000119453
+  0.00202563  0.000343272     0.999998   -0.0005977
+OUT: Example Point x=132.0, y=84.0, idepth=0.534244, idepth std.dev. 0.000052, 11 inlier-residuals
+OUT: Example Point x=545.0, y=276.0, idepth=0.782627, idepth std.dev. 0.000508, 14 inlier-residuals
+OUT: Example Point x=172.0, y=84.0, idepth=0.476129, idepth std.dev. 0.000120, 15 inlier-residuals
+OUT: Example Point x=210.0, y=84.0, idepth=0.345795, idepth std.dev. 0.000052, 15 inlier-residuals
+OUT: Example Point x=461.0, y=189.0, idepth=0.978386, idepth std.dev. 0.000282, 15 inlier-residuals
+Length of pointHessiansMarginalized : %d 41
+HERE :) OUT: KF 1 (non-final) (id 15, tme 0.000000): 13 active, 0 marginalized, 12 immature points. CameraToWorld:
+  0.849589   0.279073   0.447568  -0.968091
+ -0.264316   0.959586 -0.0965984  -0.233324
+ -0.456438 -0.0362306   0.889017  -0.390978
+OUT: Example Point x=184.0, y=133.0, idepth=10.196069, idepth std.dev. 0.016026, 7 inlier-residuals
+OUT: Example Point x=209.0, y=132.0, idepth=28.548532, idepth std.dev. 0.059386, 4 inlier-residuals
+OUT: Example Point x=354.0, y=387.0, idepth=27.445681, idepth std.dev. 0.040608, 6 inlier-residuals
+OUT: Example Point x=409.0, y=297.0, idepth=22.323128, idepth std.dev. 0.022056, 4 inlier-residuals
+OUT: Example Point x=205.0, y=342.0, idepth=0.720264, idepth std.dev. 0.000911, 6 inlier-residuals
+Length of pointHessiansMarginalized : %d 0
+HERE :) OUT: KF 2 (non-final) (id 16, tme 0.000000): 88 active, 0 marginalized, 150 immature points. CameraToWorld:
+  0.848154   0.280865   0.449164  -0.971399
+   -0.2699   0.958689 -0.0898236  -0.244217
+ -0.455838 -0.0450453   0.888922  -0.390637
+OUT: Example Point x=137.0, y=84.0, idepth=0.810163, idepth std.dev. 0.001745, 3 inlier-residuals
+OUT: Example Point x=355.0, y=84.0, idepth=1.911492, idepth std.dev. 0.001701, 3 inlier-residuals
+OUT: Example Point x=205.0, y=85.0, idepth=1.165922, idepth std.dev. 0.001876, 3 inlier-residuals
+OUT: Example Point x=349.0, y=85.0, idepth=1.890682, idepth std.dev. 0.001412, 3 inlier-residuals
+OUT: Example Point x=175.0, y=89.0, idepth=0.441788, idepth std.dev. 0.004327, 6 inlier-residuals
+Length of pointHessiansMarginalized : %d 0
+HERE :) OUT: KF 3 (non-final) (id 19, tme 0.000000): 156 active, 0 marginalized, 312 immature points. CameraToWorld:
+  0.821129   0.300037   0.485515  -0.992155
+ -0.265711   0.953825  -0.140058  -0.165301
+ -0.505119 -0.0140009   0.862936  -0.444427
+OUT: Example Point x=538.0, y=101.0, idepth=3.592278, idepth std.dev. 0.002829, 2 inlier-residuals
+OUT: Example Point x=352.0, y=345.0, idepth=0.488901, idepth std.dev. 0.002568, 5 inlier-residuals
+OUT: Example Point x=223.0, y=106.0, idepth=0.031664, idepth std.dev. 0.001725, 3 inlier-residuals
+OUT: Example Point x=418.0, y=410.0, idepth=8.629963, idepth std.dev. 0.009759, 2 inlier-residuals
+OUT: Example Point x=264.0, y=114.0, idepth=0.012133, idepth std.dev. 0.001930, 3 inlier-residuals
+Length of pointHessiansMarginalized : %d 0
+HERE :) OUT: KF 4 (non-final) (id 21, tme 0.000000): 256 active, 0 marginalized, 284 immature points. CameraToWorld:
+ 0.803139  0.324141  0.499901  -1.02861
+-0.252043  0.945121 -0.207894 -0.169572
+-0.539854 0.0409707  0.840761 -0.469143
+OUT: Example Point x=131.0, y=84.0, idepth=2.597344, idepth std.dev. 0.002512, 1 inlier-residuals
+OUT: Example Point x=166.0, y=84.0, idepth=2.373597, idepth std.dev. 0.001797, 1 inlier-residuals
+OUT: Example Point x=195.0, y=84.0, idepth=2.152129, idepth std.dev. 0.001748, 1 inlier-residuals
+OUT: Example Point x=198.0, y=84.0, idepth=2.129322, idepth std.dev. 0.001740, 1 inlier-residuals
+OUT: Example Point x=209.0, y=84.0, idepth=2.042904, idepth std.dev. 0.001750, 1 inlier-residuals
+Length of pointHessiansMarginalized : %d 0
+HERE :) OUT: KF 5 (non-final) (id 23, tme 0.000000): 0 active, 0 marginalized, 998 immature points. CameraToWorld:
+ 0.835105  0.331977  0.438623 -0.996075
+ -0.26444  0.941464 -0.209085 -0.174265
+ -0.48236 0.0586186   0.87401 -0.459105
+Length of pointHessiansMarginalized : %d 0
+LOG 23: 13.508 fine. Res: 2809 A, 0 L, 123 M; (0 / 0) forceDrop. a=-6.364374, b=112.850311. Window 23 (6)
+Coarse Tracker tracked ab = -6.383479 113.278211 (exp 1.000000). Res 8.955774!
+OUT: Current Frame 27 (time 0.000000, internal ID 27). CameraToWorld:
+ 0.840784  0.297747  0.452138   -1.0061
+-0.205798  0.948261 -0.241763 -0.170102
+-0.500729  0.110221  0.858558 -0.464703
+Coarse Tracker tracked ab = -6.383867 114.400520 (exp 1.000000). Res 8.091106!
+OUT: Current Frame 28 (time 0.000000, internal ID 28). CameraToWorld:
+ 0.854992  0.269829  0.442924  -1.00092
+-0.180319  0.955383 -0.233942 -0.172973
+-0.486286  0.120151    0.8655 -0.461663
+Coarse Tracker tracked ab = -6.385542 111.651776 (exp 1.000000). Res 8.358674!
+OUT: Current Frame 29 (time 0.000000, internal ID 29). CameraToWorld:
+ 0.864167  0.249461  0.437017 -0.999336
+-0.156506  0.958638 -0.237737 -0.172784
+-0.478247  0.137048  0.867466 -0.461586
+Coarse Tracker tracked ab = -6.382956 113.509960 (exp 1.000000). Res 8.616858!
+OUT: Current Frame 30 (time 0.000000, internal ID 30). CameraToWorld:
+ 0.875597   0.21905  0.430518 -0.997125
+-0.122712  0.962898 -0.240354 -0.173192
+-0.467195  0.157623  0.869991 -0.461447
+Coarse Tracker tracked ab = -6.381060 114.259781 (exp 1.000000). Res 9.567985!
+OUT: Current Frame 31 (time 0.000000, internal ID 31). CameraToWorld:
+  0.88103  0.205413  0.426136 -0.997099
+-0.102189  0.962178  -0.25253 -0.173011
+-0.461891   0.17894  0.868698 -0.461983
+Coarse Tracker tracked ab = -6.385156 113.830585 (exp 1.000000). Res 9.538805!
+OUT: Current Frame 32 (time 0.000000, internal ID 32). CameraToWorld:
+ 0.882676  0.196239  0.427051 -0.997833
+-0.091808  0.963146 -0.252827 -0.172379
+-0.460927  0.183957  0.868162  -0.46243
+Coarse Tracker tracked ab = -6.379027 113.591701 (exp 1.000000). Res 10.204726!
+OUT: Current Frame 33 (time 0.000000, internal ID 33). CameraToWorld:
+  0.894204   0.147728   0.422582  -0.998622
+-0.0353701   0.964345  -0.262275  -0.171588
+  -0.44626   0.219581   0.867546  -0.463362
+SPARSITY:  MinActDist 0.000000 (need 1200 points, have 1030 points)!
+OPTIMIZE 1030 pts, 3692 active res, 0 lin res!
+Initial Error       	A(4548225.489565)=(AV 14.227). Num: A(2809) + M(123); ab -6.379027 113.591698!
+STEPS: A 66.6; B 9.2; R 39.2; T 248.5. 	REJECT 0 (L -1.00, dir nan, ss 1.0): 	A(5416417.735872)=(AV 14.834). Num: A(3077) + M(123); ab -7.005268 113.766930!
+Coarse Tracker tracked ab = -6.368474 111.587884 (exp 1.000000). Res 11.140073!
+OUT: Current Frame 34 (time 0.000000, internal ID 34). CameraToWorld:
+ 0.909065 0.0691251   0.41088 -0.999718
+0.0523262  0.959393 -0.277176 -0.168724
+-0.413355  0.273471  0.868534 -0.468357
+STEPS: A 53.9; B 9.3; R 11.2; T 114.2. 	REJECT 1 (L -1.60, dir 0.75, ss 1.0): 	A(5703175.956566)=(AV 14.621). Num: A(3335) + M(123); ab -6.938244 113.315643!
+STEPS: A 139.3; B 8.0; R 5.2; T 26.5. 	REJECT 2 (L -2.20, dir 0.12, ss 1.0): 	A(6534021.869024)=(AV 15.761). Num: A(3288) + M(123); ab -9.069914 112.773499!
+STEPS: A 193.7; B 9.1; R 7.5; T 30.3. 	REJECT 3 (L -2.81, dir -0.45, ss 1.0): 	A(7179641.959044)=(AV 16.755). Num: A(3197) + M(123); ab -7.536322 112.507469!
+INCREASING cutoff to 40.000000 (ratio is 0.479259)!
+REPEAT LEVEL!
+Coarse Tracker tracked ab = -6.386434 115.552596 (exp 1.000000). Res 10.834749!
+OUT: Current Frame 35 (time 0.000000, internal ID 35). CameraToWorld:
+ 0.912424  0.051463  0.405998 -0.998855
+0.0573606  0.966187 -0.251381 -0.171285
+-0.405206  0.252654   0.87862 -0.461066
+OUT: Predicted depth for KF 6 (id 33, time 0.000000, internal frame-ID 33). CameraToWorld:
+  0.893015   0.148466   0.424832   -1.00569
+-0.0355937   0.964358  -0.262195  -0.171473
+ -0.448617   0.219022   0.866471  -0.461133
+OUT: Example Idepth at pixel (334,140): 2.405046.
+OUT: Example Idepth at pixel (336,140): 2.405046.
+OUT: Example Idepth at pixel (335,141): 2.405046.
+OUT: Example Idepth at pixel (334,142): 2.405046.
+OUT: Example Idepth at pixel (336,142): 2.405046.
+INCREASING cutoff to 40.000000 (ratio is 0.821566)!
+INCREASING cutoff to 80.000000 (ratio is 0.621309)!
+INCREASING cutoff to 160.000000 (ratio is 0.397946)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 0.322208)!
+INCREASING cutoff to 40.000000 (ratio is 0.387471)!
+INCREASING cutoff to 40.000000 (ratio is 0.424105)!
+INCREASING cutoff to 40.000000 (ratio is 0.394907)!
+INCREASING cutoff to 40.000000 (ratio is 0.834403)!
+INCREASING cutoff to 80.000000 (ratio is 0.652118)!
+INCREASING cutoff to 160.000000 (ratio is 0.400513)!
+OUT: got graph with 49 edges
+OUT: Example Edge 0 -> 0 has 0 active and 0 marg residuals
+OUT: Example Edge 0 -> 1 has 0 active and 451 marg residuals
+OUT: Example Edge 0 -> 2 has 0 active and 258 marg residuals
+OUT: Example Edge 0 -> 3 has 0 active and 393 marg residuals
+OUT: Example Edge 0 -> 4 has 0 active and 374 marg residuals
+HERE :) OUT: KF 0 (non-final) (id 0, tme 0.000000): 0 active, 452 marginalized, 0 immature points. CameraToWorld:
+    0.999999 -0.000107169  -0.00138331  0.000250459
+ 0.000106789            1  -0.00027468 -3.18134e-05
+  0.00138334  0.000274532     0.999999 -0.000188119
+Length of pointHessiansMarginalized : %d 452
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 0.327343)!
+HERE :) OUT: KF 1 (non-final) (id 15, tme 0.000000): 11 active, 0 marginalized, 9 immature points. CameraToWorld:
+  0.848305   0.279207   0.449913  -0.975554
+ -0.264463   0.959524 -0.0968177  -0.233259
+ -0.458735 -0.0368547   0.887809  -0.391278
+OUT: Example Point x=184.0, y=133.0, idepth=10.341163, idepth std.dev. 0.014461, 11 inlier-residuals
+OUT: Example Point x=209.0, y=132.0, idepth=21.710310, idepth std.dev. 0.120418, 6 inlier-residuals
+OUT: Example Point x=354.0, y=387.0, idepth=27.868204, idepth std.dev. 0.027775, 8 inlier-residuals
+OUT: Example Point x=409.0, y=297.0, idepth=22.519094, idepth std.dev. 0.017496, 5 inlier-residuals
+OUT: Example Point x=205.0, y=342.0, idepth=0.726214, idepth std.dev. 0.000871, 10 inlier-residuals
+Length of pointHessiansMarginalized : %d 0
+HERE :) OUT: KF 2 (non-final) (id 16, tme 0.000000): 71 active, 0 marginalized, 136 immature points. CameraToWorld:
+  0.846593   0.281703   0.451579  -0.979366
+ -0.271291   0.958352  -0.089237  -0.244231
+  -0.45791 -0.0469618   0.887757  -0.389795
+OUT: Example Point x=137.0, y=84.0, idepth=0.829494, idepth std.dev. 0.001752, 4 inlier-residuals
+OUT: Example Point x=355.0, y=84.0, idepth=1.951994, idepth std.dev. 0.001699, 4 inlier-residuals
+OUT: Example Point x=205.0, y=85.0, idepth=1.188100, idepth std.dev. 0.001879, 4 inlier-residuals
+OUT: Example Point x=349.0, y=85.0, idepth=1.932910, idepth std.dev. 0.001421, 4 inlier-residuals
+OUT: Example Point x=175.0, y=89.0, idepth=0.474598, idepth std.dev. 0.002588, 9 inlier-residuals
+Length of pointHessiansMarginalized : %d 0
+HERE :) OUT: KF 3 (non-final) (id 19, tme 0.000000): 148 active, 0 marginalized, 300 immature points. CameraToWorld:
+ 0.819213   0.30119  0.488031  -1.00043
+-0.267055  0.953438 -0.140137 -0.165784
+-0.507515 -0.015529  0.861503 -0.442887
+OUT: Example Point x=538.0, y=101.0, idepth=3.675085, idepth std.dev. 0.002825, 3 inlier-residuals
+OUT: Example Point x=352.0, y=345.0, idepth=0.506614, idepth std.dev. 0.002802, 9 inlier-residuals
+OUT: Example Point x=223.0, y=106.0, idepth=0.009563, idepth std.dev. 0.001705, 5 inlier-residuals
+OUT: Example Point x=418.0, y=410.0, idepth=8.872754, idepth std.dev. 0.009445, 3 inlier-residuals
+OUT: Example Point x=361.0, y=338.0, idepth=0.815167, idepth std.dev. 0.003675, 9 inlier-residuals
+Length of pointHessiansMarginalized : %d 0
+HERE :) OUT: KF 4 (non-final) (id 21, tme 0.000000): 188 active, 0 marginalized, 183 immature points. CameraToWorld:
+ 0.801215  0.325967  0.501798  -1.03586
+-0.253774  0.944551 -0.208379 -0.169865
+-0.541898 0.0396131   0.83951 -0.467034
+OUT: Example Point x=242.0, y=395.0, idepth=0.328721, idepth std.dev. 0.004631, 2 inlier-residuals
+OUT: Example Point x=133.0, y=393.0, idepth=1.017803, idepth std.dev. 0.003560, 2 inlier-residuals
+OUT: Example Point x=152.0, y=388.0, idepth=0.793641, idepth std.dev. 0.010583, 2 inlier-residuals
+OUT: Example Point x=230.0, y=386.0, idepth=0.360925, idepth std.dev. 0.003623, 2 inlier-residuals
+OUT: Example Point x=203.0, y=386.0, idepth=0.685725, idepth std.dev. 0.004083, 2 inlier-residuals
+Length of pointHessiansMarginalized : %d 0
+HERE :) OUT: KF 5 (non-final) (id 23, tme 0.000000): 0 active, 0 marginalized, 0 immature points. CameraToWorld:
+ 0.833187  0.333606  0.441028  -1.00455
+-0.265786   0.94096 -0.209648 -0.174281
+-0.484929 0.0574573  0.872664  -0.45737
+Length of pointHessiansMarginalized : %d 0
+HERE :) OUT: KF 6 (non-final) (id 33, tme 0.000000): 0 active, 0 marginalized, 1043 immature points. CameraToWorld:
+  0.893015   0.148466   0.424832   -1.00569
+-0.0355937   0.964358  -0.262195  -0.171473
+ -0.448617   0.219022   0.866471  -0.461133
+Length of pointHessiansMarginalized : %d 0
+INCREASING cutoff to 40.000000 (ratio is 0.389791)!
+INCREASING cutoff to 40.000000 (ratio is 0.399090)!
+INCREASING cutoff to 40.000000 (ratio is 0.388889)!
+HERE :) OUT: KF 0 (final) (id 0, tme 0.000000): 0 active, 452 marginalized, 0 immature points. CameraToWorld:
+    0.999999 -0.000107169  -0.00138331  0.000250459
+ 0.000106789            1  -0.00027468 -3.18134e-05
+  0.00138334  0.000274532     0.999999 -0.000188119
+Length of pointHessiansMarginalized : %d 452
+RE-TRACK ATTEMPT 1 with initOption 1 and start-lvl 3 (ab -8.514673 115.366285): 19.606003 19.799675 19.963335 19.088013 nan -> 19.689772 19.771786 19.738892 19.170317 nan 
+INCREASING cutoff to 40.000000 (ratio is 0.816431)!
+INCREASING cutoff to 80.000000 (ratio is 0.632863)!
+INCREASING cutoff to 160.000000 (ratio is 0.404365)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 0.327343)!
+LOG 33: 16.665 fine. Res: 3197 A, 0 L, 2180 M; (0 / 0) forceDrop. a=-7.536322, b=112.507472. Window 18 (6)
+RE-TRACK ATTEMPT 2 with initOption 2 and start-lvl 3 (ab -7.562404 109.796768): 19.606003 19.771786 19.738892 19.088013 nan -> 12.104280 11.940285 12.024689 14.157395 nan 
+Coarse Tracker tracked ab = -7.562404 109.796768 (exp 1.000000). Res 12.104280!
+OUT: Current Frame 36 (time 0.000000, internal ID 36). CameraToWorld:
+  0.938052 -0.0805588   0.337001  -0.972781
+  0.160253   0.963193  -0.215821  -0.171743
+  -0.30721   0.256456   0.916434  -0.456325
+SPARSITY:  MinActDist 0.000000 (need 1200 points, have 418 points)!
+OPTIMIZE 418 pts, 1240 active res, 0 lin res!
+Initial Error       	A(3332829.769592)=(AV 11.415). Num: A(3197) + M(2180); ab -7.562404 109.796768!
+INCREASING cutoff to 40.000000 (ratio is 0.560367)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 0.399215)!
+INCREASING cutoff to 40.000000 (ratio is 0.442278)!
+INCREASING cutoff to 40.000000 (ratio is 0.479703)!
+INCREASING cutoff to 40.000000 (ratio is 0.503721)!
+INCREASING cutoff to 40.000000 (ratio is 0.616107)!
+INCREASING cutoff to 80.000000 (ratio is 0.322148)!
+STEPS: A 694.0; B 28.2; R 58.0; T 198.0. 	REJECT 0 (L -1.00, dir nan, ss 1.0): 	A(4216722.063912)=(AV 22.677). Num: A(1025) + M(2180); ab -15.110454 112.583572!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 0.461133)!
+INCREASING cutoff to 40.000000 (ratio is 0.578700)!
+INCREASING cutoff to 40.000000 (ratio is 0.629078)!
+INCREASING cutoff to 80.000000 (ratio is 0.270750)!
+STEPS: A 923.9; B 26.8; R 11.7; T 36.1. 	INCREASING cutoff to 40.000000 (ratio is 0.542208)!
+ACCEPT 1 (L -1.60, dir -0.96, ss 1.0): 	A(3973611.282764)=(AV 26.302). Num: A(718) + M(2180); ab -8.010961 114.681763!
+RE-TRACK ATTEMPT 1 with initOption 1 and start-lvl 3 (ab -7.505054 108.815187): 20.852190 20.480894 20.112175 19.505596 nan -> 21.079092 27.521957 21.559111 20.592175 nan 
+INCREASING cutoff to 40.000000 (ratio is 0.566281)!
+REPEAT LEVEL!
+RE-TRACK ATTEMPT 2 with initOption 2 and start-lvl 3 (ab -7.558873 109.584536): 20.852190 20.480894 20.112175 19.505596 nan -> 11.806556 11.857052 11.821342 11.638814 nan 
+Coarse Tracker tracked ab = -7.558873 109.584536 (exp 1.000000). Res 11.806556!
+OUT: Current Frame 37 (time 0.000000, internal ID 37). CameraToWorld:
+ 0.914688 -0.199574  0.351448 -0.974914
+ 0.303056   0.91401  -0.26971 -0.166236
+-0.267399  0.353209  0.896516 -0.459078
+STEPS: A 2925.0; B 20.3; R 8.8; T 35.4. 	REJECT 2 (L -2.20, dir -0.72, ss 1.0): 	A(4108337.166239)=(AV 24.800). Num: A(835) + M(2180); ab -6.737936 116.393425!
+STEPS: A 2007.5; B 48.3; R 14.1; T 71.3. 	REJECT 3 (L -2.81, dir -0.35, ss 1.0): 	A(4581518.820320)=(AV 27.670). Num: A(748) + M(2180); ab -36.588764 108.750938!
+OUT: Predicted depth for KF 7 (id 36, time 0.000000, internal frame-ID 36). CameraToWorld:
+ 0.937732 -0.078956  0.338267 -0.975044
+ 0.159246  0.963176 -0.216639 -0.169644
+-0.308706  0.257017  0.915775 -0.459539
+OUT: Example Idepth at pixel (310,114): 1.427003.
+OUT: Example Idepth at pixel (312,114): 1.427003.
+OUT: Example Idepth at pixel (311,115): 1.427003.
+OUT: Example Idepth at pixel (310,116): 1.427003.
+OUT: Example Idepth at pixel (312,116): 1.427003.
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+RE-TRACK ATTEMPT 1 with initOption 1 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523590 151.523483 151.523102 151.522278 nan 
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+RE-TRACK ATTEMPT 2 with initOption 2 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523605 151.523499 151.523117 151.522278 nan 
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+RE-TRACK ATTEMPT 3 with initOption 3 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523605 151.523499 151.523117 151.522278 nan 
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+RE-TRACK ATTEMPT 4 with initOption 4 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523605 151.523499 151.523117 151.522278 nan 
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+RE-TRACK ATTEMPT 5 with initOption 5 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523605 151.523499 151.523117 151.522278 nan 
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+RE-TRACK ATTEMPT 6 with initOption 6 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523605 151.523499 151.523102 151.522278 nan 
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+RE-TRACK ATTEMPT 7 with initOption 7 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523605 151.523483 151.523102 151.522278 nan 
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+RE-TRACK ATTEMPT 8 with initOption 8 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523590 151.523483 151.523102 151.522278 nan 
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+RE-TRACK ATTEMPT 9 with initOption 9 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523590 151.523483 151.523102 151.522278 nan 
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+RE-TRACK ATTEMPT 10 with initOption 10 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523590 151.523483 151.523102 151.522278 nan 
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+OUT: got graph with 62 edges
+OUT: Example Edge 0 -> 0 has 0 active and 0 marg residuals
+OUT: Example Edge 0 -> 1 has 0 active and 451 marg residuals
+OUT: Example Edge 0 -> 2 has 0 active and 258 marg residuals
+OUT: Example Edge 0 -> 3 has 0 active and 393 marg residuals
+OUT: Example Edge 0 -> 4 has 0 active and 374 marg residuals
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+HERE :) OUT: KF 1 (non-final) (id 15, tme 0.000000): 0 active, 7 marginalized, 0 immature points. CameraToWorld:
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+  0.847002   0.278514   0.452789  -0.979418
+ -0.264366   0.959656  -0.095759    -0.2345
+ -0.461192 -0.0385942    0.88646  -0.389339
+Length of pointHessiansMarginalized : %d 7
+HERE :) OUT: KF 2 (non-final) (id 16, tme 0.000000): 64 active, 1 marginalized, 111 immature points. CameraToWorld:
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+  0.845574   0.280656   0.454133  -0.983534
+ -0.271105   0.958555 -0.0876067  -0.246075
+ -0.459899 -0.0490398   0.886616  -0.387838
+OUT: Example Point x=137.0, y=84.0, idepth=0.729764, idepth std.dev. 0.001887, 6 inlier-residuals
+OUT: Example Point x=355.0, y=84.0, idepth=1.744026, idepth std.dev. 0.002250, 6 inlier-residuals
+OUT: Example Point x=205.0, y=85.0, idepth=1.058939, idepth std.dev. 0.001889, 6 inlier-residuals
+OUT: Example Point x=349.0, y=85.0, idepth=1.728561, idepth std.dev. 0.001519, 5 inlier-residuals
+OUT: Example Point x=175.0, y=89.0, idepth=0.555142, idepth std.dev. 0.003186, 12 inlier-residuals
+Length of pointHessiansMarginalized : %d 1
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+HERE :) OUT: KF 3 (non-final) (id 19, tme 0.000000): 146 active, 0 marginalized, 235 immature points. CameraToWorld:
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+ 0.817611  0.301307  0.490639  -1.00292
+-0.267868  0.953363 -0.139091 -0.165926
+-0.509666 -0.017704   0.86019 -0.439005
+OUT: Example Point x=538.0, y=101.0, idepth=3.398375, idepth std.dev. 0.002839, 4 inlier-residuals
+OUT: Example Point x=352.0, y=345.0, idepth=0.517542, idepth std.dev. 0.002706, 14 inlier-residuals
+OUT: Example Point x=223.0, y=106.0, idepth=0.015945, idepth std.dev. 0.001735, 7 inlier-residuals
+OUT: Example Point x=418.0, y=410.0, idepth=8.273604, idepth std.dev. 0.010196, 4 inlier-residuals
+OUT: Example Point x=361.0, y=338.0, idepth=0.818146, idepth std.dev. 0.003533, 14 inlier-residuals
+Length of pointHessiansMarginalized : %d 0
+HERE :) OUT: KF 4 (non-final) (id 21, tme 0.000000): 155 active, 0 marginalized, 38 immature points. CameraToWorld:
+RE-TRACK ATTEMPT 11 with initOption 11 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523605 151.523499 151.523117 151.522278 nan 
+ 0.799286  0.326302  0.504647  -1.04192
+-0.254726  0.944536 -0.207284 -0.170496
+-0.544295  0.037133  0.838072 -0.464754
+OUT: Example Point x=242.0, y=395.0, idepth=0.319627, idepth std.dev. 0.003399, 4 inlier-residuals
+OUT: Example Point x=133.0, y=393.0, idepth=0.977656, idepth std.dev. 0.005434, 3 inlier-residuals
+OUT: Example Point x=175.0, y=319.0, idepth=0.614498, idepth std.dev. 0.001513, 7 inlier-residuals
+OUT: Example Point x=230.0, y=386.0, idepth=0.352271, idepth std.dev. 0.003122, 3 inlier-residuals
+OUT: Example Point x=203.0, y=386.0, idepth=0.701156, idepth std.dev. 0.004634, 3 inlier-residuals
+Length of pointHessiansMarginalized : %d 0
+HERE :) OUT: KF 5 (non-final) (id 23, tme 0.000000): 0 active, 0 marginalized, 0 immature points. CameraToWorld:
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+ 0.831305   0.33368  0.444511  -1.00987
+ -0.26627  0.941084 -0.208475 -0.174937
+-0.487886 0.0549462  0.871176 -0.454022
+Length of pointHessiansMarginalized : %d 0
+HERE :) OUT: KF 6 (non-final) (id 33, tme 0.000000): 0 active, 0 marginalized, 1 immature points. CameraToWorld:
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+   0.89145   0.149344     0.4278   -1.00955
+-0.0364655   0.964707   -0.26079  -0.172668
+ -0.451649   0.216881   0.865434  -0.457959
+Length of pointHessiansMarginalized : %d 0
+REPEAT LEVEL!
+HERE :) OUT: KF 7 (non-final) (id 36, tme 0.000000): 0 active, 0 marginalized, 997 immature points. CameraToWorld:
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+ 0.937732 -0.078956  0.338267 -0.975044
+ 0.159246INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+  0.963176 -0.216639 -0.169644
+-0.308706  0.257017  0.915775 -0.459539
+Length of pointHessiansMarginalized : %d 0
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+HERE :) OUT: KF 1 (final) (id 15, tme 0.000000): 0 active, 7 marginalized, 0 immature points. CameraToWorld:
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+  0.847002   0.278514   0.452789  -0.979418
+ -0.264366   0.959656  -0.095759    -0.2345
+ -0.461192 -0.0385942    0.88646  -0.389339
+Length of pointHessiansMarginalized : %d 7
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+RE-TRACK ATTEMPT 12 with initOption 12 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523605 151.523499 151.523117 151.522278 nan 
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+LOG 36: 26.647 fine. Res: 748 A, 0 L, 2210 M; (0 / 0) forceDrop. a=-36.588764, b=108.750939. Window 20 (6)
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+RE-TRACK ATTEMPT 13 with initOption 13 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523605 151.523499 151.523117 151.522278 nan 
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+RE-TRACK ATTEMPT 14 with initOption 14 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523590 151.523483 151.523102 151.522278 nan 
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+RE-TRACK ATTEMPT 15 with initOption 15 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523590 151.523483 151.523102 151.522278 nan 
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+RE-TRACK ATTEMPT 16 with initOption 16 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523590 151.523483 151.523102 151.522278 nan 
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+RE-TRACK ATTEMPT 17 with initOption 17 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523605 151.523499 151.523117 151.522278 nan 
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+RE-TRACK ATTEMPT 18 with initOption 18 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523605 151.523499 151.523102 151.522278 nan 
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+RE-TRACK ATTEMPT 19 with initOption 19 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523605 151.523499 151.523117 151.522278 nan 
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+RE-TRACK ATTEMPT 20 with initOption 20 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523590 151.523483 151.523102 151.522278 nan 
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+RE-TRACK ATTEMPT 21 with initOption 21 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523590 151.523483 151.523102 151.522278 nan 
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+RE-TRACK ATTEMPT 22 with initOption 22 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523590 151.523483 151.523102 151.522278 nan 
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+RE-TRACK ATTEMPT 23 with initOption 23 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523590 151.523483 151.523102 151.522278 nan 
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+RE-TRACK ATTEMPT 24 with initOption 24 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523590 151.523483 151.523102 151.522278 nan 
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+RE-TRACK ATTEMPT 25 with initOption 25 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523590 151.523483 151.523102 151.522278 nan 
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+RE-TRACK ATTEMPT 26 with initOption 26 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523590 151.523483 151.523102 151.522278 nan 
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+RE-TRACK ATTEMPT 27 with initOption 27 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523605 151.523499 151.523102 151.522278 nan 
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+RE-TRACK ATTEMPT 28 with initOption 28 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523605 151.523499 151.523117 151.522278 nan 
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+RE-TRACK ATTEMPT 29 with initOption 29 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523605 151.523499 151.523117 151.522278 nan 
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+REPEAT LEVEL!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+INCREASING cutoff to 40.000000 (ratio is 1.000000)!
+INCREASING cutoff to 80.000000 (ratio is 1.000000)!
+INCREASING cutoff to 160.000000 (ratio is 1.000000)!
+INCREASING cutoff to 320.000000 (ratio is 1.000000)!
+INCREASING cutoff to 640.000000 (ratio is 1.000000)!
+INCREASING cutoff to 1280.000000 (ratio is 1.000000)!
+RE-TRACK ATTEMPT 30 with initOption 30 and start-lvl 3 (ab -7.558873 109.584536): nan nan nan nan nan -> 151.523605 151.523499 151.523117 151.522278 nan 
+BIG ERROR! tracking failed entirely. Take predictred pose and hope we may somehow recover.
+Coarse Tracker tracked ab = -7.558873 109.584536 (exp 1.000000). Res nan!
+Initial Tracking failed: LOST!
+QUIT Pangolin thread!
+I'll just kill the whole process.
+So Long, and Thanks for All the Fish!
